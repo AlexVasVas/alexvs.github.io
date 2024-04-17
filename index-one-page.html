@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+	<style>
+ .grid-container {
+	 columns: 2 200px;
+	 column-gap: 1.5rem;
+	 width: 90%;
+	 margin: 0 auto;
+}
+ .grid-container div {
+	 width: 150px;
+	 margin: 0 1.5rem 1.5rem 0;
+	 display: inline-block;
+	 width: 100%;
+	 border: solid 2px black;
+	 padding: 5px;
+	 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	 border-radius: 5px;
+	 transition: all 0.25s ease-in-out;
+	 position: relative;
+}
+
+.grid-container div:hover:after {
+    opacity: 0;
+}
+.grid-container div:after {
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+.grid-container div:after {
+    background-image: url(/img/overlay/overlay.png), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-size: 128px 128px, auto;
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 1;
+}
+ .grid-container div:hover img {
+	 filter: none;
+}
+ .grid-container div:hover {
+	 border-color: #A5A6FF;
+}
+.grid-container div img {
+	 width: 100%;
+	 border-radius: 5px;
+	 transition: all 0.25s ease-in-out;
+}
+ .grid-container div p {
+	 margin: 5px 0;
+	 padding: 0;
+	 text-align: center;
+	 font-style: italic;
+}
+ 
+	</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="Name of your web site">
+<meta name="author" content="Marketify">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Elisc</title>
+
+<!-- STYLES -->
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kristi&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/plugins.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+<!-- /STYLES -->
+
+</head>
+
+<body> 
+	
+	<!-- PRELOADER -->
+	<div id="preloader">
+		<div class="loader_line"></div>
+	</div>
+	<!-- /PRELOADER -->
+	
+	<!-- WRAPPER ALL -->
+	<div class="elisc_tm_all_wrap" data-magic-cursor="show"> 
+			
+		<div class="dodo_tm_one_page_wrapper">
+		
+			<!-- MOBILE MENU -->
+			<div class="elisc_tm_topbar">
+				<div class="topbar_inner">
+					<div class="logo" data-type="image"> <!-- You can use text or image as logo. data-type values are: "image" and "text"  -->
+						<a class="image" href="#"><img src="img/logo/logo.png" alt="" /></a>
+						<a class="text" href="#"><span>R.Elisc</span></a>
+					</div>
+					<div class="trigger">
+						<div class="hamburger hamburger--slider">
+							<div class="hamburger-box">
+								<div class="hamburger-inner"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="elisc_tm_mobile_menu">
+				<div class="inner">
+					<div class="wrapper">
+						<div class="avatar">
+							<div class="image" data-img-url="img/about/1.jpg"></div>
+						</div>
+						<div class="menu_list">
+							<ul class="anchor_nav">
+								<li class="current"><a href="#home">Home</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#service">Services</a></li>
+								<li><a href="#portfolio">Portfolio</a></li>
+								<li><a href="#news">Blog</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</div>
+						<div class="social">
+							<ul>
+								<li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" /></a></li>
+								<li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" /></a></li>
+								<li><a href="#"><img class="svg" src="img/svg/social/instagram.svg" alt="" /></a></li>
+								<li><a href="#"><img class="svg" src="img/svg/social/dribbble.svg" alt="" /></a></li>
+								<li><a href="#"><img class="svg" src="img/svg/social/tik-tok.svg" alt="" /></a></li>
+							</ul>
+						</div>
+						<div class="copyright">
+							<p>Copyright &copy; 2023</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- /MOBILE MENU -->
+
+			<!-- SIDEBAR -->
+			<div class="elisc_tm_sidebar">
+				<div class="sidebar_inner">
+					<div class="author">
+						<div class="image">
+							<img src="img/thumbs/1-1.jpg" alt="" />
+							<div class="main" data-img-url="img/about/1.jpg"></div>
+						</div>
+						<div class="name">
+							<h3><span>Aleks Vasilev<span class="back">Aleks Vasilev</span></span></h3>
+						</div>
+					</div>
+					<div class="menu scrollable">
+						<ul class="anchor_nav">
+							<li class="current"><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#service">Services</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#news">Blog</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+					<div class="copyright">
+						<div class="social">
+							<ul>
+								<li><a href="https://www.facebook.com/qrakupi/"><i class="icon-facebook-1"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/aleks-vasilev-557884184/"><i class="icon-linkedin-1"></i></a></li>
+							</ul>
+						</div>
+						<div class="text">
+							<p>Copyright © 2024 Aleks Vasilev. All rights reserved.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /SIDEBAR -->
+
+			<!-- MAINPART -->
+			<div class="elisc_tm_mainpart">
+				<div class="mainpart_inner">
+
+					<!-- HOME -->
+					<div class="elisc_tm_section animated" id="home">
+						<div class="elisc_tm_home">
+							<div class="tm_content">
+								<div class="details">
+									<div class="left">
+										<div class="title">
+											<h3>Hi, I'm <span class="blueColor">Aleks!</span></h3>
+											<h3>
+												<span class="cd-headline rotate-1"> <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
+													<span class="blc">Game Developer &</span>
+													<span class="cd-words-wrapper">
+													  <b class="is-visible">Full-Stack Developer</b>
+													  <b>Web Designer</b>
+													</span>
+												</span>
+											</h3>
+											<h3>Based in Sofia</h3>
+										</div>
+										<div class="subtitle">
+											<p>I'm a developer based in Sofia with <span class="blueColor">3+ years</span> of experience in game development and <span class="blueColor">5+ years</span> of professional experience as a web developer and designer.</p>
+										</div>
+										<div class="buttons">
+											<div class="elisc_tm_button">
+												<a class="anchor" href="#portfolio">Got a project?</a>
+											</div>
+											<div class="elisc_tm_button" data-style="border">
+												<a class="anchor" href="#contact">Let's talk</a>
+											</div>
+										</div>
+										<div class="info">
+											<ul>
+												<li><a href="tel:+359 87 773 48 46">+359 87 773 48 46</a></li>
+												<li><a href="mailto:aleks.vasilev@abv.bg">aleks.vasilev@abv.bg</a></li>
+												<li><a class="href_location" href="#">Sofia, Bulgaria</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="right">
+										<img src="img/about/2.png" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<img class="experience-transition" src="img/experience/transition-home.svg">
+					</div>
+					<!-- /HOME -->
+
+					<!-- ABOUT -->
+					<div class="elisc_tm_section" id="about">
+						<div class="elisc_tm_about">
+							<div class="tm_content">
+								<div class="elisc_tm_biography">
+									<div class="left">
+										<div class="title">
+											<span class="mini">- Nice to meet you!</span>
+											<h3 class="name">Aleks vasilev</h3>
+											<span class="job">
+												<span class="cd-headline rotate-1"> <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
+													<span class="blc">Game developer &amp;</span>
+													<span class="cd-words-wrapper">
+													  <b class="is-visible">Full-stack developer</b>
+													  <b>Web Designer</b>
+													</span>
+												</span>
+											</span>
+										</div>
+										<div class="elisc_tm_button">
+											<a class="anchor" href="#portfolio">Got a project?</a>
+										</div>
+									</div>
+									<div class="right">
+										<div class="text">
+											<p>Hello there! My name is <span class="yellowColor">Aleks Vasilev</span>. I am a game &amp; developer, and I'm very passionate and dedicated to my work.</p>
+											<p>With 3 years experience as a game developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+										</div>
+										<div class="info">
+											<ul>
+												<li>
+													<span>Age</span>
+													<span>27</span>
+												</li>
+												<li>
+													<span>Born In</span>
+													<span><a class="href_location" href="#">Sofia, Bulgaria</a></span>
+												</li>
+												<li>
+													<span>Mail</span>
+													<span><a href="mailto:support@elisc.com">aleks.vasilev@abv.bg</a></span>
+												</li>
+												<li>
+													<span>Phone</span>
+													<span><a href="tel:+359 87 773 48 46">+359 87 773 48 46</a></span>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="elisc_tm_counter">
+									<ul>
+										<li>
+											<div class="list_inner">
+												<h3>3+</h3>
+												<span>Years of Experience</span>
+											</div>
+										</li>
+										<li>
+											<div class="list_inner">
+												<h3>5+</h3>
+												<span>Projects Completed</span>
+											</div>
+										</li>
+										<li>
+											<div class="list_inner">
+												<h3>800+</h3>
+												<span>Happy Clients</span>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="elisc_tm_experience" style="padding: 0;">
+								<img class="experience-transition" src="img/experience/transition-first.svg">
+								<div class="tm_content game-developer-container">
+									<div class="elisc_tm_title">
+										<span>- Experience</span>
+										<h3>Game Developer</h3>
+									</div>
+									<div class="list game-developer-list">
+										<ul>
+											<li style="margin: 0;">
+												<img class="popup_image" src="img/experience/2.jpg" alt="" />
+												<div class="list_inner">
+													<div class="short">
+														<div class="job">
+															<span class="yellowColor">-Feb 2022 - Present · 2+ yrs</span>
+															<h3>Game Developer</h3>
+														</div>
+														<div class="place">
+															<span>-Unreal Engine</span>
+														</div>
+													</div>
+													<div class="text">
+														<p>Delving into the game development process with Unreal Engine.</p>
+													</div>
+													<a class="elisc_tm_full_link" href="#"></a>
+
+													<!-- Modalbox Info Start -->
+													<div class="hidden_details">
+														<div class="descriptions">
+															<p>I have a strong understanding and experience with Unreal Engine.</p>
+															<p>This includes the following skills:</p>
+															<ul>
+																<li>Solid understanding of Unreal Engine's editors.</li>
+																<li>Experience with both the Blueprints visual scripting and the C++ programming.</li>
+																<li>Experience with game physics, AI programming, UI, and multiplayer networking.</li>
+																<li>Knowledge of 3D graphics concepts including shaders, materials, lighting, and effects within Unreal Engine.</li>
+																<li>Familiar with animation montages, animation layering, animation blueprints, animation sequences, skeleton retargeting, sockets, etc.</li>
+																<li>Ability to troubleshoot and debug code efficiently, as well as analyze and optimize game performance.</li>
+																<li>Experience with the version control system Git for collaborative development and code management.</li>
+																<li>Familiarity with various game development tools and software such as Blender and Photoshop.</li>
+															</ul>
+														</div>
+													</div>
+													<!-- /Modalbox Info Start -->
+
+												</div>
+											</li>
+											<li style="margin: 0;">
+												<img class="popup_image" src="img/experience/1.jpg" alt="" />
+												<div class="list_inner">
+													<div class="short">
+														<div class="job">
+															<span class="yellowColor">-Nov 2019 - Jan 2022 · 1yr 2m</span>
+															<h3>Game Developer</h3>
+														</div>
+														<div class="place">
+															<span>-Unity</span>
+														</div>
+													</div>
+													<div class="text">
+														<p>The beginning of my game development career using Unity.</p>
+													</div>
+													<a class="elisc_tm_full_link" href="#"></a>
+
+													<!-- Modalbox Info Start -->
+													<div class="hidden_details">
+														<div class="descriptions">
+															<p>My journey with Unity has been a transformative adventure in game development. Starting with the basics of scene creation and C# scripting, I progressed to designing captivating levels and characters. Along the way, I gained proficiency in using Git as a version control system, ensuring smooth collaboration and efficient project management.</p>
+															<p>Delving into the intricacies of Unity, I explored how to work with animations, animation layers, animation controllers, materials, the shader graph, the terrain system, and the particle system. Mastering these elements added layers of depth and realism to my projects, enhancing both visual and interactive aspects.</p>
+															<p>Tackling challenges like performance optimization and bug fixing, I developed a resilient problem-solving mindset. Leveraging features like the Unity Asset Store, I streamlined my workflow and accessed a wealth of resources.</p>
+															<p>In summary, my two-year Unity adventure has been a dynamic blend of creativity and technical growth. From project inception to overcoming challenges, Unity has been the canvas for my game development passion. Armed with skills in version control, animations, materials, terrain, and particles, I was ready for new ventures in interactive digital experiences working with Unreal Engine 5.</p>
+														</div>
+													</div>
+													<!-- /Modalbox Info Start -->
+
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<img class="experience-transition" src="img/experience/transition-second.svg">
+								<div class="tm_content web-developer-container">
+									<div class="elisc_tm_title">
+										<h2>Web Developer</h3>
+									</div>
+									<div class="list web-developer-list">
+										<ul>
+											<li>
+												<img class="popup_image" src="img/experience/1.jpg" alt="" />
+												<div class="list_inner">
+													<div class="short">
+														<div class="job">
+															<span class="yellowColor">-Apr 2020 - Present · 3+ yrs</span>
+															<h3>Full-Stack Developer</h3>
+														</div>
+														<div class="place">
+															<span>-ISenseLabs</span>
+														</div>
+													</div>
+													<div class="text">
+														<p>A mid level position working for one of the leading digital provider of top-notch e-commerce modules.</p>
+													</div>
+													<a class="elisc_tm_full_link" href="#"></a>
+
+													<!-- Modalbox Info Start -->
+													<div class="hidden_details">
+														<div class="descriptions">
+															<p>Developed multiple modules for OpenCard and Shopify.</p>
+															<p>Worked as a technical support of the modules, delivering hundreds of 5 star reviews and even more satisfied customers.</p>
+															<p>Guiding and teching multiple junior colleagues, and leading them in multiple different projects.</p>
+														</div>
+													</div>
+													<!-- /Modalbox Info Start -->
+
+												</div>
+											</li>
+											<li>
+												<img class="popup_image" src="img/thumbs/rq-1.png" alt="" style="display:none" data-image-text="Home page" />
+												<img class="popup_image2" src="img/thumbs/rq-2.png" alt="" style="display:none" data-image-text="Company page" />
+												<img class="popup_image3" src="img/thumbs/rq-3.png" alt="" style="display:none" data-image-text="Review page" />
+												<img class="popup_image4" src="img/thumbs/rq-4.png" alt="" style="display:none" data-image-text="Registration page" />
+												<div class="list_inner">
+													<div class="short">
+														<div class="job">
+															<span class="yellowColor">-Nov 2018 - Jan 2020 · 1+ yr</span>
+															<h3>Full-Stack Developer</h3>
+														</div>
+														<div class="place">
+															<span>-DSS</span>
+														</div>
+													</div>
+													<div class="text">
+														<p>A full-stack developer at Digital Software Solutions, a company that provides software development services.</p>
+													</div>
+													<a class="elisc_tm_full_link" href="#"></a>
+
+													<!-- Modalbox Info Start -->
+													<div class="hidden_details">
+														<div class="descriptions">
+															<p>Worked on projects for a Bulgarian ministry using Angular(6-7) with angularMaterial or primeNg(primeFaces) for the frontend, while on the backend mainly used NodeJS, with Mysql as DB.</p>
+															<p>Learned how to teach and guide new interns.</p>
+															<p>Developed unit tests using the testing framework - Mocha in a combination with the assertion library - Chai.</p>
+														</div>
+													</div>
+													<!-- /Modalbox Info Start -->
+
+												</div>
+											</li>
+											<li style="margin: 0;">
+												<img class="popup_image" src="img/thumbs/toh-2.png" alt="" style="display:none" data-image-text="Payment page" />
+												<img class="popup_image2" src="img/thumbs/toh-3.png" alt="" style="display:none" data-image-text="Admin panel" />
+												<img class="popup_image3" src="img/thumbs/toh-1.png" alt="" style="display:none" data-image-text="Home page" />
+												<div class="list_inner">
+													<div class="short">
+														<div class="job">
+															<span class="yellowColor">-Mar 2018 - Oct 2018 · 8 mos</span>
+															<h3>Full-Stack Developer</h3>
+														</div>
+														<div class="place">
+															<span>-Oxeanic</span>
+														</div>
+													</div>
+													<div class="text">
+														<p>A junior position working for a company developing buisness and e-commerce websites.</p>
+													</div>
+													<a class="elisc_tm_full_link" href="#"></a>
+
+													<!-- Modalbox Info Start -->
+													<div class="hidden_details">
+														<div class="descriptions">
+															<p>Worked as a freelance full-stack developer creating multiple websites.</p>
+															<p>My work mainly consists of using VueJS, SASS and TailWind for the frontend, and PHP with MySQL for the backend.</p>
+														</div>
+													</div>
+													<!-- /Modalbox Info Start -->
+
+												</div>
+											</li>
+											<li style="margin: 0;">
+												<img class="popup_image" src="img/thumbs/atbs-1.png" alt="" style="display:none" data-image-text="First half of the Home page" />
+												<img class="popup_image2" src="img/thumbs/atbs-2.png" alt="" style="display:none" data-image-text="Second half of the Home page" />
+												<div class="list_inner">
+													<div class="short">
+														<div class="job">
+															<span class="yellowColor">-Aug 2017 - Jan 2018 · 6 mos</span>
+															<h3>Web Developer</h3>
+														</div>
+														<div class="place">
+															<span>-Information Services</span>
+														</div>
+													</div>
+													<div class="text">
+														<p>An intern position at the first governmentally approved company in Bulgaria.</p>
+													</div>
+													<a class="elisc_tm_full_link" href="#"></a>
+
+													<!-- Modalbox Info Start -->
+													<div class="hidden_details">
+														<div class="descriptions">
+															<p>Went trough a study program and helped developing 2 websites that were developed for ministries.</p>
+															<p>The first 2 months I had a study program, which included learning HTML, CSS, JS and PHP.</p>
+															<p>After that I've mainly developed my skills in JQuery and Bootstrap making websites responsive and dynamic.</p>
+														</div>
+													</div>
+													<!-- /Modalbox Info Start -->
+
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<img class="experience-transition" src="img/experience/transition-third.svg">
+								<div class="tm_content graphic-design-container">
+									<div class="elisc_tm_title">
+										<h2>Graphic Designer</h3>
+									</div>
+									<div class="list graphic-design-list">
+										<ul>
+											<li style="margin: 0;">
+												<img class="popup_image" src="img/experience/1.jpg" alt="" />
+												<div class="list_inner">
+													<div class="short">
+														<div class="job">
+															<h3>Game Design</h3>
+														</div>
+													</div>
+													<div class="text">
+														<p>Create 3D models, visual effects and shaders.</p>
+													</div>
+													<a class="elisc_tm_full_link" href="#"></a>
+
+													<!-- Modalbox Info Start -->
+													<div class="hidden_details">
+														<div class="descriptions">
+															<p>In my journey as a game designer, I started with crafting immersive virtual environments through 3D modeling and shader development.</p>
+															<p>Using Unreal Engine's Material Editor and Unity's Shader Graph, I manipulating textures and lighting for a cohesive visual experience.</p>
+															<p>Im also familiar with HLSL, which helped me create custom shaders that enhance the visual graphic while optimizing performance.</p>
+														</div>
+													</div>
+													<!-- /Modalbox Info Start -->
+
+												</div>
+											</li>
+											<li style="margin: 0;">
+												<img class="popup_image" src="img/experience/2.jpg" alt="" />
+												<div class="list_inner">
+													<div class="short">
+														<div class="job">
+															<h3>Web Design</h3>
+														</div>
+													</div>
+													<div class="text">
+														<p>Design websites using CSS and CSS frameworks.</p>
+													</div>
+													<a class="elisc_tm_full_link" href="#"></a>
+
+													<!-- Modalbox Info Start -->
+													<div class="hidden_details">
+														<div class="descriptions">
+															<p>Over my 5+ years of experience as a web developer ive had to style multiple websites using CSS, or CSS frameworks like Bootstrap, Tailwind, UIKit, Polaris, etc.</p>
+															<p>My knowledge also consists of structuring layouts, making responsive design, following styling guidelines, picking color palettes and themes, etc.</p>
+															<p>Ive also had experience working with Photoshop in order to create custom backgrounds, logos or badges.</p>
+														</div>
+													</div>
+													<!-- /Modalbox Info Start -->
+
+												</div>
+											</li>
+											<li style="margin: 0;">
+												<img class="popup_image" src="img/experience/3.jpg" alt="" />
+												<div class="list_inner">
+													<div class="short">
+														<div class="job">
+															<h3>Graphic Design</h3>
+														</div>
+													</div>
+													<div class="text">
+														<p>Creating logos, price lists, and buisness cards.</p>
+													</div>
+													<a class="elisc_tm_full_link" href="#"></a>
+
+													<!-- Modalbox Info Start -->
+													<div class="hidden_details">
+														<div class="descriptions">
+															<p>In my experience as a graphic designer, I specialized in creating impactful logos, compelling price lists, and memorable business cards.</p>
+															<p>With a focus on visual storytelling, I've crafted unique brand identities that resonate with clients and their audiences.</p>
+														</div>
+													</div>
+													<!-- /Modalbox Info Start -->
+
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<img class="experience-transition" src="img/experience/transition-fourth.svg">
+							</div>
+						</div>
+					</div>
+					<!-- /ABOUT -->
+
+					<!-- PORTFOLIO -->
+					<div class="elisc_tm_section" id="portfolio">
+						<div class="elisc_tm_portfolio">
+							<div class="tm_content">
+								<div class="elisc_tm_portfolio_title">
+									<div class="elisc_tm_title">
+										<span>- Projects</span>
+										<h3>Recent completed works</h3>
+									</div>
+									<div class="buttons">
+										<a class="prev_button" href="#"><img class="svg" src="img/svg/prev.svg" alt="" /></a>
+										<a class="next_button" href="#"><img class="svg" src="img/svg/next.svg" alt="" /></a>
+									</div>
+								</div>
+								<div class="portfolio_list">
+									<ul class="owl-carousel gallery_zoom">
+										<li>
+											<div class="list_inner">
+												<div class="image">
+													<img src="img/thumbs/31-36.jpg" alt="" />
+													<div class="main" data-img-url="img/portfolio/1.png"></div>
+													<a class="elisc_tm_full_link popup-youtube" href="img/portfolio/indiana-jones-gameplay.mp4"></a>
+												</div>
+												<div class="details">
+													<span class="category"><a href="#">Youtube</a></span>
+													<h3 class="title"><a class="line_effect popup-youtube" href="img/portfolio/indiana-jones-gameplay.mp4">Indiana Jones</a></h3>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="list_inner">
+												<div class="image">
+													<img src="img/thumbs/31-36.jpg" alt="" />
+													<div class="main" data-img-url="img/portfolio/2.png"></div>
+													<a class="elisc_tm_full_link popup-vimeo" href="img/portfolio/deer-runner-gameplay.mp4"></a>
+												</div>
+												<div class="details">
+													<span class="category"><a href="#">Vimeo</a></span>
+													<h3 class="title"><a class="line_effect popup-vimeo" href="img/portfolio/deer-runner-gameplay.mp4">Deer Runner</a></h3>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="list_inner">
+												<div class="image">
+													<img src="img/thumbs/31-36.jpg" alt="" />
+													<div class="main" data-img-url="img/portfolio/3.jpg"></div>
+													<a class="elisc_tm_full_link soundcloude_link mfp-iframe audio" href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></a>
+												</div>
+												<div class="details">
+													<span class="category"><a href="#">Soundcloud</a></span>
+													<h3 class="title"><a class="line_effect soundcloude_link mfp-iframe audio" href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">Creative Building</a></h3>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="list_inner">
+												<div class="image">
+													<img src="img/thumbs/31-36.jpg" alt="" />
+													<div class="main" data-img-url="img/portfolio/4.jpg"></div>
+													<a class="elisc_tm_full_link portfolio_popup" href="#"></a>
+												</div>
+												<div class="details">
+													<span class="category"><a href="#">Modalbox</a></span>
+													<h3 class="title"><a class="line_effect portfolio_popup" href="#">Beautiful Boat</a></h3>
+												</div>
+											</div>
+
+											<!-- Modalbox Info Start -->
+											<div class="hidden_content_portfolio">
+												<div class="popup_details">
+													<div class="main_details">
+														<div class="textbox">
+															<p>We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance ease of modification. Building mockups strikes the ideal balance ease of modification.</p>
+															<p>Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they phase when they will represent the target product. Building mockups strikes the ideal balance ease of modification.</p>
+														</div>
+														<div class="detailbox">
+															<ul>
+																<li>
+																	<span class="first">Client</span>
+																	<span>Alvaro Morata</span>
+																</li>
+																<li>
+																	<span class="first">Category</span>
+																	<span><a href="#">Modalbox</a></span>
+																</li>
+																<li>
+																	<span class="first">Date</span>
+																	<span>April 10, 2023</span>
+																</li>
+																<li>
+																	<span class="first">Share</span>
+																	<ul class="share">
+																		<li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" /></a></li>
+																		<li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" /></a></li>
+																		<li><a href="#"><img class="svg" src="img/svg/social/instagram.svg" alt="" /></a>
+																		</li>
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="additional_images">
+														<ul>
+															<li>
+																<div class="list_inner">
+																	<div class="my_image">
+																		<img src="img/thumbs/4-2.jpg" alt="" />
+																		<div class="main" data-img-url="img/portfolio/5.jpg"></div>
+																	</div>
+																</div>
+															</li>
+															<li>
+																<div class="list_inner">
+																	<div class="my_image">
+																		<img src="img/thumbs/4-2.jpg" alt="" />
+																		<div class="main" data-img-url="img/portfolio/6.jpg"></div>
+																	</div>
+																</div>
+															</li>
+															<li>
+																<div class="list_inner">
+																	<div class="my_image">
+																		<img src="img/thumbs/4-2.jpg" alt="" />
+																		<div class="main" data-img-url="img/portfolio/7.jpg"></div>
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<!-- /Modalbox Info Start -->
+
+										</li>
+									</ul>
+									<div class="elisc_tm_button" data-position="center">
+										<a href="#">View all projects</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- PARTNERS -->
+						<div class="elisc_tm_partners">
+							<div class="tm_content">
+								<div class="elisc_tm_title">
+									<span>- Clients</span>
+									<h3>Customers &amp; clients</h3>
+								</div>
+								<div class="partners_inner">
+							<ul>
+								<li>
+									<div class="list_inner">
+										<img src="img/partners/1.png" alt="" />
+										<a class="elisc_tm_full_link" a href="#"></a>
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<img src="img/partners/2.png" alt="" />
+										<a class="elisc_tm_full_link" a href="#"></a>
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<img src="img/partners/3.png" alt="" />
+										<a class="elisc_tm_full_link" a href="#"></a>
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<img src="img/partners/4.png" alt="" />
+										<a class="elisc_tm_full_link" a href="#"></a>
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<img src="img/partners/5.png" alt="" />
+										<a class="elisc_tm_full_link" a href="#"></a>
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<img src="img/partners/6.png" alt="" />
+										<a class="elisc_tm_full_link" a href="#"></a>
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<img src="img/partners/7.png" alt="" />
+										<a class="elisc_tm_full_link" a href="#"></a>
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<img src="img/partners/8.png" alt="" />
+										<a class="elisc_tm_full_link" a href="#"></a>
+									</div>
+								</li>
+							</ul>
+						</div>
+							</div>
+						</div>
+						<!-- /PARTNERS -->
+						<img class="experience-transition" src="img/experience/transition-fifth.svg">
+						<!-- TESTIMONIALS -->
+						<div class="elisc_tm_testimonial_wrapper">
+							<div class="tm_content">
+								<div class="elisc_tm_testimonials">
+									<div class="elisc_tm_title" data-position="center">
+										<span>- Testimonial</span>
+										<h3>What client's say?</h3>
+									</div>
+									<div class="testimonials_list">
+										<ul class="owl-carousel owl-theme">
+										<li>
+											<div class="text">
+												<p>The customer service is always 100% top notch. They respond very quickly and there is always someone to help out. They have great communication on their end is what it is. I think it makes them the best at what they do. Would highly recommend them for your privacy needs.</p>
+											</div>
+											<div class="short">
+												<div class="image">
+													<div class="main" data-img-url="img/testimonials/1.jpg"></div>
+												</div>
+												<div class="detail">
+													<h3>Focal Image Designs</h3>
+												</div>
+											</div>
+											<p class="job">Administrator at Focal Image Designs</p>
+										</li>
+										<li>
+											<div class="text">
+												<p>Support is quick to respond to any questions and help when needed. Highly recommend!</p>
+											</div>
+											<div class="short">
+												<div class="image">
+													<div class="main" data-img-url="img/testimonials/2.jpg"></div>
+												</div>
+												<div class="detail">
+													<h3>Reverie Hats</h3>
+												</div>
+											</div>
+											<p class="job">Website manager at Reverie Hats</p>
+										</li>
+										<li>
+											<div class="text">
+												<p>Really useful app with a great and fast support when I had questions !</p>
+											</div>
+											<div class="short">
+												<div class="image">
+													<div class="main" data-img-url="img/testimonials/3.jpg"></div>
+												</div>
+												<div class="detail">
+													<h3>LionLift</h3>
+												</div>
+											</div>
+											<p class="job">Administrator at LionLift</p>
+										</li>
+									</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- /TESTIMONIALS -->
+					</div>
+					<!-- /PORTFOLIO -->
+					<img class="experience-transition" src="img/experience/transition-sixth.svg">
+					<!-- CONTACT -->
+					<div class="elisc_tm_section" id="contact">
+						<div class="elisc_tm_contact">
+							<div class="tm_content">
+								<div class="wrapper">
+									<div class="left">
+										<div class="elisc_tm_title">
+											<span>- Let's Connect</span>
+											<h3>Get in touch</h3>
+										</div>
+										<div class="text">
+											<p>I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want to run past me. You can contact anytime at 24/7</p>
+										</div>
+										<div class="info">
+											<ul>
+												<li>
+													<a href="tel:+359 87 773 4846">+359 87 773 4846</a>
+												</li>
+												<li>
+													<a href="mailto:aleks.vasilev@abv.bg">aleks.vasilev@abv.bg</a>
+												</li>
+												<li>
+													<a class="href_location" href="#">Sofia, Bulgaria</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="right">
+										<div class="fields">
+											<form action="/" method="post" class="contact_form" id="contact_form">
+												<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
+												<div class="empty_notice"><span>Please Fill Required Fields</span></div>
+												<div class="first">
+													<ul>
+														<li>
+															<input id="name" type="text" placeholder="Enter your name" autocomplete="off">
+														</li>
+														<li>
+															<input id="email" type="text" placeholder="Your email" autocomplete="off">
+														</li>
+													</ul>
+												</div>
+												<div class="last">
+													<textarea id="message" placeholder="Write something..."></textarea>
+												</div>
+												<div class="elisc_tm_button">
+													<a id="send_message" href="#">Submit now</a>
+												</div>
+
+												<!-- If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  -->
+
+											</form>
+										</div>
+									</div>
+								</div>	
+
+								<div class="elisc_tm_map">
+									<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="375" id="gmap_canvas" src="https://maps.google.com/maps?q=Sofia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon"></a><br><style>.mapouter{position:relative;text-align:right;height:375px;width:100%;}</style><a href="https://www.embedgooglemap.net">how to add google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:375px;width:100%;}</style></div></div>
+
+									<!-- Get your API here https://www.embedgooglemap.net -->
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /CONTACT -->
+					<img class="experience-transition" src="img/experience/transition-seventh.svg">
+
+				</div>
+			</div>
+			<!-- /MAINPART -->
+			
+		</div>
+		
+		<!-- CURSOR -->
+		<!-- <div class="mouse-cursor cursor-outer"></div> -->
+		<div class="mouse-cursor cursor-outer" style="border: 0px; background-image: url(img/svg/cursor/crosshairs.svg);"></div>
+		<!-- <div class="mouse-cursor cursor-outer" style="font-size: 3rem; text-align: center; line-height: 0.45;">⌖</div> -->
+		<!-- <div class="mouse-cursor cursor-outer" style="font-size: 1.85rem; text-align: center; line-height: 0.95;">⚙</div> -->
+		<div class="mouse-cursor cursor-inner"></div>
+		<!-- /CURSOR -->
+		
+	</div>
+	<!-- / WRAPPER ALL -->
+	
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
+<script src="js/plugins.js"></script>
+<script src="js/init.js"></script>
+<!-- /SCRIPTS -->
+
+<script>
+	const observer = new MutationObserver(function(mutations_list) {
+		mutations_list.forEach(function(mutation) {
+			mutation.addedNodes.forEach(function(added_node) {
+				if(added_node.classList.contains("mfp-wrap")) {
+					let videoSRC  = document.getElementsByTagName("IFRAME")[0].src;
+					let videoHeader = '';
+					let videoDescription = '';
+					if(videoSRC.includes('indiana-jones')) {
+						videoHeader = 'Indiana Jones';
+						videoDescription = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!';
+
+					} else if(videoSRC.includes('deer-runner')) {
+						videoHeader = 'Deer Runner';
+						videoDescription = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!';
+					}
+
+					let mfpContainer = document.getElementsByClassName('mfp-container')[0];
+					let mfpDescription = document.createElement("div");
+					let mfpHeader = document.createElement('h3');
+					let mfpText = document.createElement('p');
+
+					mfpDescription.classList.add('mfp-description');
+					mfpHeader.classList.add('mfp-header');
+					mfpText.classList.add('mfp-text');
+
+					mfpHeader.appendChild(document.createTextNode(videoHeader));
+					mfpText.appendChild(document.createTextNode(videoDescription));
+
+					mfpDescription.appendChild(mfpHeader);
+					mfpDescription.appendChild(mfpText);
+					mfpContainer.appendChild(mfpDescription);
+					
+					//observer.disconnect();
+				}
+			});
+		});
+	});
+	observer.observe(document.getElementsByTagName('body')[0], { subtree: false, childList: true });
+</script>
+</body>
+</html>
